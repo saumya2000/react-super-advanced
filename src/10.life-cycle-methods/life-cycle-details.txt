@@ -1,0 +1,49 @@
+Life cycle methods
+-----------------------
+when we create a react component that component goes through
+several stages in its life cycle
+
+*life cycle methods are only available on class components 
+ not in functional components
+
+ MOUNTING
+ -------------
+ when an instance of the component is being created and inserted
+ into the DOM
+
+ 1.constructor  
+    - a special function that will get called whenever a new component is created
+    -if you want to initialize state
+    -binding the evenhandler
+    -never use constructor for HTTP request(Ajax calls)
+
+    Notes
+    ======
+    1.we have to call special function 'super' this will call the base constructor
+
+ 2.static getDerived
+ 3.render
+ 4.componentDidMount
+
+
+ UPDATING
+ -------------
+when a component is being re-rendered changes will be made to 
+either props or state
+
+1.static getDerivedStateFromProps
+2.shouldComponnetUpdate
+3.render
+4.getSnapShotBeforeUpdate
+5.componentDidUpdate
+
+ UNMOUNTING
+ -------------
+when component is being removed from the DOM
+
+1.componentUnMount
+
+ ERROR HANDLING
+ -------------
+ When there is an error during rendering,in a life cycle method 
+ or in the constructor

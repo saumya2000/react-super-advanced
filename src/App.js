@@ -20,18 +20,22 @@
 // import UserGreetingOne from "./6.conditional-rendering/UserGreetingOne";
 // import UserGreetingThree from "./6.conditional-rendering/UserGreetingThree";
 // import UserGreetingTwo from "./6.conditional-rendering/UserGreetingTwo";
-import NameListFour from "./7.list-rendering/NameListFour";
-import NameListOne from "./7.list-rendering/NameListOne";
-import NameListThree from "./7.list-rendering/NameListThree";
-import NameListTwo from "./7.list-rendering/NameListTwo";
-import NameListFive from "./7.list-rendering/NameListFive";
-import StyleSheet from "./8.styling/StyleSheet";
-import StyleSheetTwo from "./8.styling/StyleSheetTwo";
-import Inline from "./8.styling/Inline";
-import AppStyle from "./8.styling/AppStyle";
-import './8.styling/appStyles.css'
-import Styles from './8.styling/appStyles.module.css'
+// import NameListFour from "./7.list-rendering/NameListFour";
+// import NameListOne from "./7.list-rendering/NameListOne";
+// import NameListThree from "./7.list-rendering/NameListThree";
+// import NameListTwo from "./7.list-rendering/NameListTwo";
+// import NameListFive from "./7.list-rendering/NameListFive";
+// import StyleSheet from "./8.styling/StyleSheet";
+// import StyleSheetTwo from "./8.styling/StyleSheetTwo";
+// import Inline from "./8.styling/Inline";
+// import AppStyle from "./8.styling/AppStyle";
+// import Form from "./9.form-data/Form";
+// import FormOne from "./9.form-data/FormOne";
+// import LifeCycleA from "./10.life-cycle-methods/LifeCycleA";
+// import './8.styling/appStyles.css'
+// import Styles from './8.styling/appStyles.module.css'
 // import NameList from "./7.list-rendering/NameListOne";
+import Fetch from "./11.ajax-calls/Fetch";
 // function Home(){
 //   return <h1>This is home component</h1>
 // }
@@ -44,10 +48,14 @@ import Styles from './8.styling/appStyles.module.css'
 function App() {
   return (
     <div className="container">
+      <Fetch/>
+      {/* <FormOne/> */}
+      {/* <LifeCycleA/> */}
+      {/* <Form/> */}
       {/* <StyleSheetTwo/> */}
       {/* <StyleSheet/>
       <Inline/> */}
-      <AppStyle/>
+      {/* <AppStyle/> */}
       {/* <NameListFive/>
       <NameListFour/>
       <NameListThree/>
